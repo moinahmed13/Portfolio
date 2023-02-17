@@ -41,7 +41,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  margin-left: 100px;
+  margin-left: 400px;
   gap: 20px;
 }
 .built-with {
@@ -65,4 +65,15 @@
 .p2 {
   font-family: sans-serif;
   font-size: 25px;
+}
+img {
+  width: 60%;
+  height: 50%;
+  border: 10px solid;
+  border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)) 1;
+}
+
+.page {
+  display: flex;
+  gap: 290px;
 }
